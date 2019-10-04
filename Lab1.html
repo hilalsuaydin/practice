@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>MIS 233 Lab</title>
+		<meta name="keywords" content="web page, HTML5, table, list, form">
+	</head>	
+
+	<body>
+		<header>
+			<h1 id="title">MIS 233 Web Programming-Lab Section</h1>
+			<p>Welcome to MIS 233 Lab!</p>
+		</header>
+		
+		<section id="1">
+			<h2>Contact Info</h2>
+			<em>This is our course website</em> <a href="http://misprivate.boun.edu.tr/coskun/MIS233/index.htm">MIS 233</a>
+			<p><strong>Click to link to visit my website</strong><a href="http://misprivate.boun.edu.tr/coskun"></a></p>
+			<p>Click the link to mail<a href="mailto:abide.coskun@boun.edu.tr">email</a></p>
+			
+			
+			<h2>Contents of the First Lab</h2>
+			<ol>
+				<li>Headings</li>
+				<li>Linking</li>
+				<li>Images</li>
+					<ul>
+						<li>alt attribute</li>
+						<li>void element</li>
+						<li>using images as hyperlink</li>
+					</ul>
+				<li>Lists</li>
+				<li>Tables</li>
+				<li>Forms</li>
+				<li>Internal Link</li>
+				<li>Meta Element</li>	
+				<li>Special Characters and Horizontal Rules</li>
+			</ol>	
+		</section>
+		
+		<section id="2">
+			<h2>Table Example</h2>
+			<table border="1">
+				<caption>Here is a small sample table</caption>
+				<thead>
+					<th colspan="2">This is the table head</th>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<td>This is the body row1 cell1</td>
+						<td>This is the body row1 cell2</td>
+					</tr>
+					<tr>
+						<td>This is the body row2 cell1</td>
+						<td>This is the body row2 cell2</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+						<a href="http://deitel.com"><img src="howto.jpg" alt="how to programming" height="100" width="75"></a>
+						</td>
+					</tr>
+				</tbody>
+				
+				<tfoot>
+					<th colspan="1">This is the foot1</th>
+					<th colspan="1">This is the foot2</th>
+				</tfoot>
+			</table>
+		</section>
+		
+		<section id="3">
+			<h2>Form Example</h2>
+			<h3>Feedback Form</h3>
+			<form method="post" autocomplete="on">
+				<p><label>Full name:</label><input name="full name" type="text" size="25"/></p>
+				<p><label>Tel:</label><input name="tel" type="tel" placeholder="(###) ###-####" pattern="\(\d{3}\)+ \d{3}-\d{4}" size="25"/></p>
+				<p><label>URL:</label><input name="url" type="url" placeholder="www.domain.com" size="25"/></p>
+				<p><label>E-Mail:</label><input name="email" type="email" placeholder="name@domainname.com" size="25"/></p>
+				<p><label>Gender:</label>
+				<label>Male</label><input type="radio" name="gender" value="Male" checked="checked"/>
+				<label>Female</label><input type="radio" name="gender" value="Female"/>
+				<label>Other</label><input type="radio" name="gender" value="Other"/></p>
+				<p><label>University:</label><input type="text" id="university" list="universities" placeholder="Select your university"/>
+				<datalist>
+					<option value="Boğaziçi University">
+					<option value="Bahçeşehir University">
+					<option value="Altınbaş University">
+					<option value="Haliç University">
+				</datalist id="universities"></br>
+				<label>Color:</label>
+				<input type="color"/>(Hexadecimal code such as #ADD8E6)</p>
+				<p><label>Date</label>
+				<input type="date"/></p>
+				<p>Check off the part that you enjoyed.</p>
+				<p>
+				<label>List</label> <input type="checkbox" name="like" value="list"/>
+				<label>Table</label> <input type="checkbox" name="like" value="table"/>
+				<label>Form</label> <input type="checkbox" name="like" value="form"/>
+				</p>
+				<p>Rate out site:
+				<select name="raiting">
+				<option selected>Amazing</option>
+				<option>5</option>
+				<option>4</option>
+				<option>3</option>
+				<option>2</option>
+				<option>1</option>
+				<option>Awful</option>
+				</select></p>
+				<p><label>Range:
+				0<input type="range" min="0" max="10" value:"5" />10</label>
+				</p>
+				<p>Give us additional feedback</p>
+				<textarea name="comments" rows="4" cols="30"></textarea>
+				
+				<p>
+				<input type="submit" value="Submit"/>
+				<input type="reset" value="Clear"/>
+				</p>
+			</form>
+		</section>
+		
+		<footer>
+		<p>All information on this site is <strong> &copy; Deitel&Associates,Inc. 2012.</strong>
+		<del>You may download 3.14x10<sup>2</sup> characters worth of info from this site.</del>
+		The first item in the series is x<sub>1</sub></p>
+		<p>Note: &lt; &frac14; of the info presented here is updated daily.</p>
+		</footer>
+			<p>Go to <a href="#title">Main Title</a> </p>
+	</body>
+
+<html>

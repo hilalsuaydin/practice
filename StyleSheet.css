@@ -1,0 +1,42 @@
+body{
+	font:%100 Lucida Sans, Verdana;
+	margin:20px;
+	background-color:#808080;
+}
+
+#top{
+	background-color:#C0C0C0;
+	color:#6C6B6B;
+	padding:15px;
+	margin=5px;
+}
+
+.liste{
+	position:relative;
+}
+
+#lovelist{
+	background-color:#FEBBEA;
+	color:#A00070;
+	padding:2px;
+	margin:4px;
+}
+
+.tablo{
+	position:relative;
+}
+
+#lovetable{
+	background-color=#D1FFFF;
+	border:1px solid #0F4B4B;
+}
+
+.form{
+	position:relative;
+}
+
+#loveform{
+	background-color:#DEFFCF;
+	color:#205109;
+	border:1px solid #172113;
+}
